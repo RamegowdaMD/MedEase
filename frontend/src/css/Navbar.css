@@ -1,0 +1,159 @@
+/* .shopping-cart
+{
+   
+    display: flex;
+}
+
+.cart{
+    margin-top: 7px;
+    height: 26px;
+    width: 28px;
+ } */
+
+ /* .parent {
+    padding-bottom: 2px;
+    background-color: red;
+    border-radius: 100%;
+    display: flex;
+    height: 20px;
+    width: 20px;
+    justify-content: center;
+ }   */
+/* 
+.child {
+    margin-bottom:6px; 
+
+} */
+.navbar
+{   
+    background-color: rgb(12, 154, 161);
+}
+/*
+.Searchbtn
+{
+
+    border-radius: 6px; 
+    border-color: rgb(188, 48, 48);
+    color: rgb(2, 123, 129);
+
+}
+
+.search_nav
+{
+    color: rgb(2, 123, 129);
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.search
+{   width: 20vw;
+    height: 26px;
+    border-color:rgb(255, 255, 255) ;
+    border-radius: 5px;
+    color: rgb(10, 123, 129);
+}
+
+.searchField
+{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.sign
+{  
+   font-size: 1.1rem;
+}
+
+.sign:hover{
+    list-style: none;
+    text-decoration: underline white;
+}
+
+.NavProducts
+{   
+    color:rgb(10, 123, 129);
+    background-color: aliceblue;
+
+}
+
+.navlist a{
+    color: white;
+    text-decoration: none;
+} 
+
+.menusection
+{
+   background: aliceblue;
+   color: rgb(10, 123, 129);
+}
+
+.menuColor
+{   margin: 0;
+    padding: 21px;
+    background: rgb(10, 123, 129);
+    color: white;
+}
+
+.subItems {
+    padding-left: 20px;
+} 
+
+.subMenuLink {
+  color: #555;
+}
+
+.subMenuLink:hover {
+  color: #000;
+}
+
+nav .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  padding: 5px 0;
+  background-color: #fff;
+  color: black;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+nav li:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.dropdown-menu li {
+  margin: 0;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f0f0f0; 
+}
+
+.dropdown-menu::-webkit-scrollbar {
+  width: 8px;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}  */
+
+
+
+
+
+

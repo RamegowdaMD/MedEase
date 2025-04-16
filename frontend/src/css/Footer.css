@@ -1,0 +1,40 @@
+.footer_body
+{background-color: rgb(10, 123, 129);
+    height: 30vh;
+    /* padding: 40px;
+    
+    height: 28vh;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold; */
+}
+
+.copyright
+{ 
+    
+    text-align: center;
+    line-height:6px;
+}
+.copyright a{
+    text-decoration: none;
+    color: blue;
+    font-weight:900;
+}
+.footerList li:hover{
+   
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+ }
+ .footerList li{
+    margin: 15px;
+    list-style: none;
+    cursor: pointer;
+}
+.footerList
+{
+    padding: 0px 20px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+}
