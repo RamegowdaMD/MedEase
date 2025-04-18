@@ -3,6 +3,7 @@ import cors from 'cors';
 import 'dotenv/config';
 import connectdb from './config/Mongodb.js';
 import userRouter from './routes/userRoute.js';
+import cartRouter from './routes/cartRoute.js';
 
 const app = express();
 const port = process.env.PORT || 4000;
@@ -15,6 +16,7 @@ connectdb();
 
 // api endpoints 
 app.use('/api/user', userRouter);
+app.use('/api/cart', cartRouter);
 
 app.get('/',(req,res)=>
 {
