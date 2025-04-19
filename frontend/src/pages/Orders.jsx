@@ -70,7 +70,10 @@ const Orders = () => {
                     </p>
                     <p className='text-sm md:text-base'>{item.status}</p>
                   </div>
+                  <div className='flex gap-2'>
+                  <button className='border px-4 py-2 text-sm font-medium rounded-sm'>Cancel Order</button>
                   <button className='border px-4 py-2 text-sm font-medium rounded-sm'>Track Order</button>
+                  </div>
                 </div>
             </div>
           ))
