@@ -1,0 +1,46 @@
+name: MERN Stack CI for Medease
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      # Backend setup
+      - name: Install backend dependencies
+        working-directory: backend
+        run: npm install
+
+      - name: Backend test placeholder
+        working-directory: backend
+        run: echo "No backend tests configured"
+
+      - name: Lint backend code
+        working-directory: backend
+        run: npx eslint . || true
+
+      # Frontend setup
+      - name: Install frontend dependencies
+        working-directory: frontend
+        run: npm install
+
+      - name: Lint frontend code
+        working-directory: frontend
+        run: npm run lint || true
+
+      - name: Build frontend
+        working-directory: frontend
+        run: npm run build
