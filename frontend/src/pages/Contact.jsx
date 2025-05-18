@@ -51,6 +51,7 @@ const Contact = () => {
       <div className="mt-8 bg-white p-6 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold text-black-500 mb-4 text-center">Send Us a Message</h2>
         <form className="space-y-4">
+<<<<<<< HEAD
           <input type="text" placeholder="Your Name" name='names' className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black-500" />
           <input type="email" placeholder="Your Email" name='email' className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black-500" />
           <textarea placeholder="Your Message" rows="4" name='message' className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black-500"></textarea>
@@ -62,6 +63,12 @@ const Contact = () => {
               Send Message
             </button>
           </div>
+=======
+          <input type="text" placeholder="Your Name"  className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black-500" />
+          <input type="email" placeholder="Your Email" className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black-500" />
+          <textarea placeholder="Your Message" rows="4" className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black-500"></textarea>
+          <button type="submit" className="w-full bg-black-500 text-white p-3 rounded-lg font-semibold hover:bg-black-600 transition duration-300">Send Message</button>
+>>>>>>> af0a4dc (updated)
         </form>
       </div>
     </div>

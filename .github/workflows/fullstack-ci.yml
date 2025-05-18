@@ -1,4 +1,4 @@
-name: MERN Stack CI for Medease
+name: CI for Medease
 
 on:
   push:
