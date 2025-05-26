@@ -112,7 +112,7 @@ export const products = [
       },
       {
         _id: "p002",
-        name: "Paracetamol 500mg Tablets",
+        name: "Paracetamol 500-mg Tablets",
         description: "Effective pain reliever and fever reducer.",
         price: 50,
         image: [b2],
