@@ -124,7 +124,7 @@ export const products = [
       },
       {
         _id: "p003",
-        name: "Paracetamol 500mg Tablets",
+        name: "johnsons baby shampoo",
         description: "Effective pain reliever and fever reducer.",
         price: 50,
         image: [b3],
