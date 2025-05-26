@@ -3,26 +3,6 @@ import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 const Contact = () => {
 
-   const onSubmitHandler = async (event) => {
-    event.preventDefault();
-  try{
-     
-        const response = await axios.post(`${backendUrl}/api/contact/submsg`, {names, email , password})
-        if(response.data.success)
-        {
-          toast.success('Message sent successfully')
-        }
-        else
-        {
-          toast.error(response.data.message)
-        }
-      }
-    catch(error)
-    {
-      console.log(error)
-      toast.error('Something went wrong')
-    }
-  }
   return (
     <div className="container mx-auto p-8 bg-gray-100 rounded-lg shadow-lg">
       <h1 className="text-4xl font-extrabold text-center text-black-200 mb-6">Contact Us</h1>
