@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="container mx-auto p-8 bg-gray-100 rounded-lg shadow-lg">
       <h1 className="text-4xl font-extrabold text-center text-black-200 mb-6">Contact Us</h1>
       <p className="text-lg text-gray-700 text-center mb-6 max-w-2xl mx-auto">
-        Get in touch with us for any inquiries, support, or assistance. We’re here to help!
+        Get in touch with us for any inquiries, support, or assistance. Were here to help!
       </p>
       
       <div className="grid md:grid-cols-3 gap-8 text-center">
