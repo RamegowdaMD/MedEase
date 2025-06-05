@@ -1,4 +1,3 @@
 # MedEase
 
-github
-this is updating 
+I am updating readme.md file
