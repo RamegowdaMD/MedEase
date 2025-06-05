@@ -40,6 +40,29 @@ const loginUser = async (req, res) => {
 }
 
 
+const updateUser = async (req, res) => {
+    try {
+        const userId = req.userId; // Set by middleware
+        const { name, email, password } = req.body;
+
+        const updates = {};
+        if (name) updates.name = name;
+        if (email) updates.email = email;
+        if (password) {
+            const salt = await bcrypt.genSalt(10);
+            updates.password = await bcrypt.hash(password, salt);
+        }
+
+        const updatedUser = await userModel.findByIdAndUpdate(userId, updates, { new: true });
+
+        res.json({ success: true, user: updatedUser });
+    } catch (error) {
+        res.status(500).json({ success: false, message: error.message });
+    }
+};
+
+
+
 const registerUser = async (req, res) => {
     try{
         const {name ,email ,password} = req.body;
@@ -81,5 +104,4 @@ const registerUser = async (req, res) => {
 
 }
 
-
-export {loginUser, registerUser};
+export { loginUser, registerUser, updateUser };

@@ -17,6 +17,10 @@ import Footer  from './components/Footer';
 import Searchbar from './components/Searchbar';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
+import UpdateProfile from './pages/UpdateProfile'; // Create this page using above component
+
+
+
 
 const App = () => {
   return (
@@ -36,6 +40,7 @@ const App = () => {
         <Route path="/order" element={<Order />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/placeOrder" element={<PlaceOrder />} />
+        <Route path="/update-profile" element={<UpdateProfile />} />
       </Routes>
       <Footer/>
     </div>
